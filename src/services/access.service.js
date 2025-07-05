@@ -7,7 +7,7 @@ const { createTokensPair, verifyJWT } = require("../auth/authUtil");
 const { getInfoData } = require("../utils");
 const { BadRequestError, AuthFailureError, ForbiddenError } = require("../core/error.response");
 const { findByEmail } = require("./shop.service");
-const keyTokenModel = require("../models/keyToken.model");
+const keyTokenModel = require("../models/keytoken.model");
 
 const roleShop = {
   SHOP: "SHOP",

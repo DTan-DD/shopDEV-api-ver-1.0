@@ -13,12 +13,12 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // test pub.sub redis
-const productTest = require("./test/product.test");
-require("./test/inventory.test");
-productTest.purchaseProduct("product:001", 10);
+// const productTest = require("./test/product.test");
+// require("./test/inventory.test");
+// productTest.purchaseProduct("product:001", 10);
 
 //  init db
-require("./dbs/init.mongodb");
+// require("./dbs/init.mongodb");
 // check overload
 const { checkOverload } = require("./helper/check.connect");
 // checkOverload();

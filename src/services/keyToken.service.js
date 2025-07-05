@@ -1,6 +1,6 @@
 "use strict0";
 
-const keyTokenModel = require("../models/keyToken.model");
+const keyTokenModel = require("../models/keytoken.model");
 const {
   Types: { ObjectId },
 } = require("mongoose");
